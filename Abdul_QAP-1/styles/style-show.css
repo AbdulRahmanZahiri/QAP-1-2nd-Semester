@@ -12,7 +12,7 @@ html {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/Img/BMW_Showroom.webp);
+    url(../Img/BMW_Showroom.webp);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -353,18 +353,18 @@ ul {
 }
 
 .car-details-table tr:last-child td {
-  border-bottom: none; 
+  border-bottom: none;
 }
 
 .car-details-table tr:nth-child(even) {
-  background-color: #f8f8f8; 
+  background-color: #f8f8f8;
 }
 
 .car-details-table tr:hover {
-  background-color: #eaf4fc; 
+  background-color: #eaf4fc;
 }
 
 .car-details-table td:first-child {
-  font-weight: bold; 
+  font-weight: bold;
   color: #0066b1;
 }
