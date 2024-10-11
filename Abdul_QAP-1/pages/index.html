@@ -1,0 +1,398 @@
+<!-- Project Description:  This is a Website for a BMW shop introducing latest model cars-->
+<!--                       with the name and specification. -->
+<!-- Author:               Abdul Rahman Zahiri -->
+<!-- Class:                QAP 1, 2nd Semester -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW website</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- i have used google fonts as a link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="./index.html"
+          ><img src="../Img/logo.webp" alt="This is a bmw logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./showroom.html" target="_self">MODELS</a></li>
+            <li><a href="./brand.html">PERFORMANCE</a></li>
+            <li><a href="#footer" target="_self">ABOUT</a></li>
+            <li>
+              <a
+                href="https://www.bmw.ca/en/ssl/SpecialOffers.html"
+                target="_blank"
+                >DEALS</a
+              >
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Explore Ultimate Driving Machine</h1>
+        <p>
+          Discover the thrill of driving with our exclusive range of BMW models.
+          Performance, luxury, and technology combined to perfection.
+        </p>
+        <a href="./showroom.html" class="hero-bkng">Explore Our Collection</a>
+      </div>
+    </section>
+
+    <section class="model">
+      <h1>Most Sold BMW Series</h1>
+      <p>
+        Explore our range of BMW models, each crafted to deliver the ultimate
+        driving experience.
+      </p>
+
+      <div class="row">
+        <div class="model-col">
+          <h3>BMW 3 Series</h3>
+          <p>
+            The BMW 3 Series is the benchmark for sports sedans, combining
+            iconic design, exhilarating performance, and cutting-edge
+            technology. With its dynamic handling, powerful engine options, and
+            luxurious interior, the 3 Series offers an unmatched driving
+            experience. Perfect for those who want performance and comfort in
+            one sophisticated package.
+          </p>
+        </div>
+        <div class="model-col">
+          <h3>BMW 5 Series</h3>
+          <p>
+            The BMW 5 Series redefines executive luxury with a blend of sporty
+            performance, cutting-edge innovation, and exceptional comfort. Its
+            elegant design, spacious cabin, and intuitive iDrive system make
+            every journey both productive and enjoyable. Experience the perfect
+            balance of performance and luxury.
+          </p>
+        </div>
+        <div class="model-col">
+          <h3>BMW 7 Series</h3>
+          <p>
+            The BMW 8 Series is a luxury grand tourer that offers unparalleled
+            performance, elegance, and advanced technology. Whether you choose
+            the Coupe, Convertible, or Gran Coupe, the 8 Series offers thrilling
+            acceleration, exquisite craftsmanship, and innovative driving
+            technologies for those who demand the best in every detail.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--  show -->
+
+    <section class="show">
+      <h1>Our Global Showrooms</h1>
+      <p>
+        Discover our BMW showrooms across Canada. Experience luxury,
+        performance, and unmatched service at our flagship locations in Toronto,
+        Vancouver, and Montreal.
+      </p>
+      <div class="row">
+        <div class="show-col">
+          <img
+            src="../Img/toronto.webp"
+            height="367"
+            alt="Toronto branch of BMW store"
+          />
+          <div class="layer"><h3>Toronto</h3></div>
+        </div>
+        <div class="show-col">
+          <img
+            src="../Img/vancouver.webp"
+            height="367"
+            alt="Vancouver branch of BMW store"
+          />
+          <div class="layer"><h3>Vancouver</h3></div>
+        </div>
+        <div class="show-col">
+          <img
+            src="../Img/montreal.webp"
+            height="367"
+            alt="Montreal branch of BMW store"
+          />
+          <div class="layer"><h3>Montreal</h3></div>
+        </div>
+      </div>
+    </section>
+    <!--  why bmw -->
+    <section class="option">
+      <h1>Why Choose BMW?</h1>
+      <p>
+        At BMW, we strive to provide the ultimate driving experience, backed by
+        innovative technology, exceptional customer service, and a variety of
+        flexible options for every driver. Discover why BMW is the right choice
+        for your next vehicle.
+      </p>
+      <div class="row">
+        <div class="option-col">
+          <img
+            src="../Img/certified.webp"
+            height="212"
+            alt="Picture of certified pre-owned store"
+          />
+          <h3>Certified Pre-Owned Program</h3>
+          <p>
+            Enjoy the same quality and performance you expect from BMW with our
+            Certified Pre-Owned vehicles. Each vehicle undergoes a rigorous
+            inspection process and comes with a comprehensive warranty, giving
+            you confidence and peace of mind.
+          </p>
+        </div>
+
+        <div class="option-col">
+          <img
+            src="../Img/serviceCenter.webp"
+            height="212"
+            alt="this is an Image of customer service center"
+          />
+          <h3>BMW Service Centers</h3>
+          <p>
+            Keep your BMW running smoothly with our world-class service centers.
+            Our highly-trained technicians use genuine BMW parts and the latest
+            technology to provide the highest quality service, ensuring your BMW
+            performs at its best.
+          </p>
+        </div>
+
+        <div class="option-col">
+          <img
+            src="../Img/Financing.webp"
+            height="212"
+            alt="It is showing a financing choice picture"
+          />
+          <h3>Financing Options</h3>
+          <p>
+            Whether you're buying new or Certified Pre-Owned, our flexible
+            financing options make owning a BMW easier than ever. With
+            competitive rates and personalized plans, we help you get behind the
+            wheel of your dream car.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+    <section class="rev">
+      <h1>What Our Customers Say</h1>
+      <p>
+        Hear directly from our satisfied BMW customers about their experiences
+        with our vehicles.
+      </p>
+      <div class="row">
+        <div class="rev-col">
+          <img
+            src="../Img/user1.webp"
+            alt="small picture of user who have given a review"
+          />
+          <div>
+            <p>
+              The BMW X7 Series offers luxury, performance, and comfort that is
+              truly unmatched.
+            </p>
+            <h3>Emily Raven</h3>
+            <i class="stars"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+
+        <div class="rev-col">
+          <img
+            src="../Img/user2.webp"
+            alt="small picture of user who have given a review"
+          />
+
+          <div>
+            <p>
+              The BMW M5 is perfect for my family, combining safety, comfort,
+              and style. and I always get a lot of enjoyment driving this
+              monster.
+            </p>
+            <h3>Williams Smith</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- booking a test drive -->
+
+    <section class="bkng">
+      <h1>Book Your Test Drive Today!</h1>
+      <a
+        href="https://www.bmw.ca/en/ssl/RequestTestDrive.html"
+        target="_blank"
+        class="hero-bkng"
+        >Schedule a Test Drive</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li>
+                <a
+                  href="https://www.kellybmw.com/10-reasons-to-buy-a-bmw/#:~:text=Compared%20to%20other%20luxury%20car,after%20several%20years%20of%20use."
+                  target="_blank"
+                  >Why BMW</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/experience/bmw-concept-vehicle/bmw-vision-m-next.html"
+                  target="_blank"
+                  >Future Vision</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmwtoronto.ca/join-our-team/"
+                  target="_blank"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Customer Care</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.bmw-connecteddrive.ca/en/faq.html"
+                  target="_blank"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/offers-and-services/service-workshop/bmw-service-new.html"
+                  target="_blank"
+                  >Service</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/owners/financial-services/theroadahead.html"
+                  target="_blank"
+                  >returns</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/owners/parts_service_warranty/warranties.html"
+                  target="_blank"
+                  >Warranties</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmwofbloomington.com/manufacturer-information/who-owns-bmw/#:~:text=Who%20Owns%20BMW%3F-,Who%20owns%20BMW%3F,curious%20about%20the%20brand's%20history."
+                  target="_blank"
+                  >Ownership</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://shop.bmw.ca/accessories/Bmw__.html"
+                  target="_blank"
+                  >Accessories</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/owners/bmw-lifestyle/bmw-lifestyle.html"
+                  target="_blank"
+                  >Lifestyle</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/topics/offers-and-services/bmw-digital-services-and-connectivity/bmw-connected-drive-upgrades-overview.html"
+                  target="_blank"
+                  >Upgrades</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bmw.ca/en/ssl/SpecialOffers.html"
+                  target="_blank"
+                  >Deals</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow Us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/" target="_blank"
+                ><i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://ca.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- I used some JavaScript to click on my menu option. -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
